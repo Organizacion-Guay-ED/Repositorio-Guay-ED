@@ -38,7 +38,11 @@ public class PruebaGuay {
             }
         } while (respuesta!=no);
         
-        System.out.println("Que te calles!");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Que te calles, Andres!");
+        }
+        
+        
     }
     
 }
