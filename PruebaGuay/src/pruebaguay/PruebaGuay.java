@@ -18,6 +18,7 @@ public class PruebaGuay {
         System.out.println("Hola equipo GUAY");
         System.out.println("Hola Aitor.");
         System.out.println("El repositorio guay tiene lagunas");
+        System.out.println("27");
     }
     
 }
