@@ -5,6 +5,8 @@
  */
 package pruebaguay;
 
+import java.util.Scanner;
+
 /**
  *
  * @author sdiazr02
@@ -22,6 +24,16 @@ public class PruebaGuay {
         System.out.println("Son mis años...");
         System.out.println("Hola putos");
         System.out.println("Se sienten coño!");
+                String respuesta;
+        System.out.println("¿Desea ver el estado del repositorio?");
+        String si = new String("si");
+        do {
+            Scanner entrada = new Scanner(System.in);
+            respuesta=entrada.nextLine();
+            if (respuesta==si) {
+                System.out.println("seguimos trabajando en ello");
+            }
+        } while (respuesta==si);
     }
     
 }
