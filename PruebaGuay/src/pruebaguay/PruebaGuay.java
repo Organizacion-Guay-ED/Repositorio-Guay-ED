@@ -24,7 +24,9 @@ public class PruebaGuay {
         System.out.println("Son mis años...");
         System.out.println("Hola putos");
         System.out.println("Se sienten coño!");
-                String respuesta;
+        
+        // MIERDA DE ANDRES
+        String respuesta;
         System.out.println("¿Desea ver el estado del repositorio?");
         String si = new String("si");
         String no = new String("no");
@@ -35,6 +37,8 @@ public class PruebaGuay {
                 System.out.println("seguimos trabajando en ello");
             }
         } while (respuesta!=no);
+        
+        System.out.println("Que te calles!");
     }
     
 }
