@@ -27,13 +27,14 @@ public class PruebaGuay {
                 String respuesta;
         System.out.println("¿Desea ver el estado del repositorio?");
         String si = new String("si");
+        String no = new String("no");
         do {
             Scanner entrada = new Scanner(System.in);
             respuesta=entrada.nextLine();
             if (respuesta==si) {
                 System.out.println("seguimos trabajando en ello");
             }
-        } while (respuesta==si);
+        } while (respuesta!=no);
     }
     
 }
