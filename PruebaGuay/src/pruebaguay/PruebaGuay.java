@@ -30,9 +30,6 @@ public class PruebaGuay {
         System.out.println("¿Desea ver el estado del repositorio?");
         String si = new String("si");
         String no = new String("no");
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Que te calles, Andres!");
-        }
         do {
             Scanner entrada = new Scanner(System.in);
             respuesta=entrada.nextLine();
