@@ -17,10 +17,7 @@ public class PruebaGuay {
     public static void main(String[] args) {
         System.out.println("Hola equipo GUAY");
         System.out.println("Hola Aitor.");
-        System.out.println("El repositorio guay tiene lagunas");
-        System.out.println("27");
-        System.out.println("Son mis años...");
-        System.out.println("Hola putos");
+        
     }
     
 }
