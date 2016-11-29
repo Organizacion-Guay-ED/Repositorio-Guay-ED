@@ -25,6 +25,8 @@ public class PruebaGuay {
         System.out.println("Hola putos");
         System.out.println("Se sienten coño!");
         
+        
+        
         // MIERDA DE ANDRES
         String respuesta;
         System.out.println("¿Desea ver el estado del repositorio?");
@@ -34,7 +36,8 @@ public class PruebaGuay {
             Scanner entrada = new Scanner(System.in);
             respuesta=entrada.nextLine();
             if (respuesta==si) {
-                System.out.println("seguimos trabajando en ello");
+                System.out.println("Estado comprometido!");
+                System.out.println("MUAJAJAJAJAJA");
             }
         } while (respuesta!=no);
         
